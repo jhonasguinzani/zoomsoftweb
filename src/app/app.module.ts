@@ -22,6 +22,7 @@ import {
   AgmCoreModule
 } from '@agm/core';
 import { AdminLayoutComponent } from './layouts/admin-layout/admin-layout.component';
+import { FaturamentoComponent } from './cadastro/pessoa/faturamento/faturamento.component';
 
 @NgModule({
   imports: [
@@ -39,6 +40,7 @@ import { AdminLayoutComponent } from './layouts/admin-layout/admin-layout.compon
   declarations: [
     AppComponent,
     AdminLayoutComponent,
+    FaturamentoComponent,
 
   ],
   providers: [],
